@@ -1,0 +1,5 @@
+has "Hello" (get .headers "x-my-header")
+
+listFindRegex (get .headers "x-my-header") "Hello"
+
+eq 1 2
